@@ -8,3 +8,4 @@ ENV PATH /root/.cargo/bin:$PATH
 
 RUN rustup target add asmjs-unknown-emscripten
 RUN rustup target add wasm32-unknown-emscripten
+RUN rustup target add wasm32-unknown-unknown
