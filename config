@@ -1,0 +1,9 @@
+
+[target.asmjs-unknown-emscripten]
+runner = "node"
+
+[target.wasm32-unknown-emscripten]
+runner = "node"
+
+[target.wasm32-unknown-unknown]
+runner = "node"

@@ -14,3 +14,5 @@ RUN rustup toolchain install nightly
 RUN rustup target add --toolchain nightly asmjs-unknown-emscripten
 RUN rustup target add --toolchain nightly wasm32-unknown-emscripten
 RUN rustup target add --toolchain nightly wasm32-unknown-unknown
+
+COPY config /root/.cargo
