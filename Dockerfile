@@ -16,3 +16,4 @@ RUN rustup target add --toolchain nightly wasm32-unknown-emscripten
 RUN rustup target add --toolchain nightly wasm32-unknown-unknown
 
 COPY config /root/.cargo
+COPY asmjs-emscripten-toolchain.cmake /root
