@@ -1,4 +1,4 @@
-FROM rust:stretch-slim
+FROM rust:slim
 
 # gcc is necessary to be able to compile crates that have build scripts
 RUN apt-get update && apt-get install -y curl gcc
